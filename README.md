@@ -1,4 +1,4 @@
-:warn: *Code for this repository will be made available soon*
+⚠️ *Code for this repository will be made available soon*
 
 # Woodtick Walking Simulator
 
