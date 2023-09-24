@@ -2,7 +2,7 @@
 
 # Woodtick Walking Simulator
 
-This simulator uses ScummVM to walk Guybrush, the main character of Monkey Island 2, through the town known as 'Woodtick', In the town known as 'Woodtick,' that he visits at the beginning of the game.
+This is a walking simulator for Monkey Island 2 that lets Guybrush, the main character, walk at random to different locations in the town known as 'Woodtick', which Guybrush visits at the beginning of the game.
 The music beautifully changes as Guybrush enters different locations.
 
 This is academically intended as a dataset generator for machine learning in a adaptive music context.
