@@ -4,7 +4,7 @@ This is a walking simulator for **Monkey Island 2** that lets Guybrush, the main
 The music beautifully changes as Guybrush enters different locations.
 
 This is intended for academic use as a dataset generator for machine learning of conditional music data.
-You can read about its use case in the [corresponding paper](https://publikationen.bibliothek.kit.edu/1000162754/151572782) from the [*33th Workshop on Computational Intelligence*](https://doi.org/10.5445/KSP/1000162754).
+You can read about its use case in the [corresponding paper](https://publikationen.bibliothek.kit.edu/1000162754/151572782) from the [Proceedings of the *33th Workshop on Computational Intelligence*](https://doi.org/10.5445/KSP/1000162754) that took place in Nov'2023 in Berlin (Germany).
 
 And of course, do not hesitate to [contact me :envelope:](mailto:fabian.ostermann@tu-dortmund.de) if you need any help!
 
@@ -40,11 +40,18 @@ For more information on compiling ScummVM, see:
 
 You will need the actual game in order to run it.
 If you do not own it, you can [download it from archive.org](https://archive.org/details/msdos_Monkey_Island_2_-_LeChucks_Revenge_1991)
-Put the monkey2 game data in a subfolder called `gamedata/monkey2-game`. The necessary savegame files are already provided by this repository.
+Put all the monkey2 game files in a subfolder named `gamedata/monkey2-game`. The necessary savegame files are already provided by this repository.
 
 Test your setup by running `bash start_woodtick.sh`.
+You will see the game starting in a window and the protagonist moving around the town.
+Don't be bothered if there is no sound. A midi file named `dump.mid` will be written to disk right after you choose to close the window. 
 
-You should now be able to record a log with `bash record_iMuse_monkey2.sh`,\
-or create a whole dataset of multiple logs with `bash generate_dataset.sh <desired_location>`
+You should now be able to record a full log with `bash record_iMuse_monkey2.sh`,\
+or create a whole dataset of multiple logs with `bash generate_dataset.sh <desired_location>` (default: `dataset/`)
 
-
+Next to the recorded midi files, you will find a log file containing all information named `dump.log.gz`.
+Finally, you should transform that file in a *Machine Learning*-friedly csv format using the python script `util/logs_to_events.py`:
+```
+pip install pandas pretty_midi
+python util/logs_to_events.py --dir dataset/001/
+```
