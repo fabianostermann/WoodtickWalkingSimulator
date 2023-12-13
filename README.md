@@ -45,6 +45,6 @@ Put the monkey2 game data in a subfolder called `gamedata/monkey2-game`. The nec
 Test your setup by running `bash start_woodtick.sh`.
 
 You should now be able to record a log with `bash record_iMuse_monkey2.sh`,\
-or create a whole dataset of multiple logs with `bash generate_database.sh <desired_location>`
+or create a whole dataset of multiple logs with `bash generate_dataset.sh <desired_location>`
 
 

@@ -5,9 +5,9 @@
 ###############################################
 
 if [ $1 == "" ]; then
-  DATABASE_DIR="../database"
+  DATASET_DIR="dataset"
 else
-  DATABASE_DIR="$1"
+  DATASET_DIR="$1"
 fi
 
 NUM_OF_PARALLEL_INSTANCES=20
@@ -19,7 +19,7 @@ echo "Using $NUM_OF_PARALLEL_INSTANCES parallel instances -> set sleep time to $
 
 for ID in {00001..01000}
 do	
-	dump_dir="$DATABASE_DIR/$ID/"
+	dump_dir="$DATASET_DIR/$ID/"
 	echo "Attempting to generate $dump_dir.."
 
 	if [ ! -e $dump_dir ]
@@ -32,4 +32,4 @@ do
 	fi
 done
 
-echo "Database generation ended."
+echo "Dataset generation ended."
