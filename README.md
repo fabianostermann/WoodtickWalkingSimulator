@@ -4,7 +4,7 @@ This is a walking simulator for **Monkey Island 2** that lets Guybrush, the main
 The music beautifully changes as Guybrush enters different locations.
 
 This is intended for academic use as a dataset generator for machine learning of conditional music data.
-You can read about its use case in the [corresponding paper](https://publikationen.bibliothek.kit.edu/1000162754/151572782) from the [*33th Workshop on Computational Intelligence*](https://doi.org/10.5445/KSP/1000162754).
+You can read about its use case in the [corresponding paper](https://publikationen.bibliothek.kit.edu/1000162754/151572782) from the [Proceedings of the *33th Workshop on Computational Intelligence*](https://doi.org/10.5445/KSP/1000162754) that took place from 23.11. - 24.11.2023 in Berlin, Germany.
 
 And of course, do not hesitate to [contact me :envelope:](mailto:fabian.ostermann@tu-dortmund.de) if you need any help!
 
