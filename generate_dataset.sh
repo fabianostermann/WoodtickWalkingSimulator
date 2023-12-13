@@ -4,7 +4,7 @@
 # https://www.baeldung.com/linux/bash-functions
 ###############################################
 
-if [ $1 == "" ]; then
+if [ "$1" == "" ]; then
   DATASET_DIR="dataset"
 else
   DATASET_DIR="$1"

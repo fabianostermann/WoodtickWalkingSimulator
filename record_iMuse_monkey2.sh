@@ -12,8 +12,9 @@ mkdir -p $DUMP_DIR
 echo "Start log record of $DUMP_DIR.."
 bash start_woodtick.sh --dump-dir $DUMP_DIR > $DUMP_DIR/dump.log
 
-echo "Make MIDICSV file for $DUMP_DIR.."
-midicsv $DUMP_DIR/dump.mid > $DUMP_DIR/dump.midicsv
+# enable this to generate midicsv files
+#echo "Make MIDICSV file for $DUMP_DIR.."
+#midicsv $DUMP_DIR/dump.mid > $DUMP_DIR/dump.midicsv
 
 echo "Compress $DUMP_DIR.."
 gzip $DUMP_DIR/*.midicsv $DUMP_DIR/*.log
