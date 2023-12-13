@@ -4,9 +4,12 @@ This is a walking simulator for **Monkey Island 2** that lets Guybrush, the main
 The music beautifully changes as Guybrush enters different locations.
 
 This is intended for academic use as a dataset generator for machine learning of conditional music data.
-Do not hesitate to [contact me](mailto:fabian.ostermann@tu-dortmund.de) if you need any help!
+You can read about its use case in the [corresponding paper](https://publikationen.bibliothek.kit.edu/1000162754/151572782) from the [*33th Workshop on Computational Intelligence*](https://doi.org/10.5445/KSP/1000162754).
 
-### Setup ScummVM code
+And of course, do not hesitate to [contact me :envelope:](mailto:fabian.ostermann@tu-dortmund.de) if you need any help!
+
+## HOWTO setup
+### Setup ScummVM
 
 ***Disclaimer***: *The install scripts were developed and tested on Linux. Imho, they could probably work on Windows using WSL or MinGW.*
 
