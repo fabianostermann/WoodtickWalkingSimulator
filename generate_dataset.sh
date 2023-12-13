@@ -17,7 +17,7 @@ SLEEP_TIME="$((10*60/$NUM_OF_PARALLEL_INSTANCES+5))s"
 
 echo "Using $NUM_OF_PARALLEL_INSTANCES parallel instances -> set sleep time to $SLEEP_TIME."
 
-for ID in {00001..01000}
+for ID in {001..010} # << set number of runs
 do	
 	dump_dir="$DATASET_DIR/$ID/"
 	echo "Attempting to generate $dump_dir.."
