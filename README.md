@@ -40,7 +40,7 @@ For more information on compiling ScummVM, see:
 
 You will need the actual game in order to run it.
 If you do not own it, you can [download it from archive.org](https://archive.org/details/msdos_Monkey_Island_2_-_LeChucks_Revenge_1991)
-Put the monkey2 game data in a subfolder called `gamedata/monkey2-game`. The necessary savegame files are already provided by this repository.
+Put all the monkey2 game files in a subfolder named `gamedata/monkey2-game`. The necessary savegame files are already provided by this repository.
 
 Test your setup by running `bash start_woodtick.sh`.
 
