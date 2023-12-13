@@ -13,7 +13,7 @@ Do not hesitate to [contact me](mailto:fabian.ostermann@tu-dortmund.de) if you n
 The code of the game emulator [ScummVM](https://www.scummvm.org/) is not included in this repository.
 It also is intendedly NOT setup as an submodule (because of management overhead).
 
-Therefore, just clone the scummvm-WoodtickRL repo in a subdirectory and check out the branch with following commands:
+Therefore, just clone the separate repository [scummvm-WoodtickRL](https://github.com/fabianostermann/scummvm-WoodtickRL) in a subdirectory and check out the prepared branch with following commands:
 ```
 git clone https://github.com/fabianostermann/scummvm-WoodtickRL.git scummvm-WoodtickRL
 cd scummvm-WoodtickRL
